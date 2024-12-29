@@ -85,19 +85,19 @@ Sales vs PY = [Sales] - [Sales PY]
 Sales vs py % = DIVIDE([Sales vs PY],[Sales],0)
 
 
->> Products Sold = SUM(Sales_Data[Order Quantity])
+* Products Sold = SUM(Sales_Data[Order Quantity])
 
->> Profit = SUM(Sales_Data[Profit])
+* Profit = SUM(Sales_Data[Profit])
  
->> Profit LY = CALCULATE([Profit], SAMEPERIODLASTYEAR(DateTable[Date]))
+* Profit LY = CALCULATE([Profit], SAMEPERIODLASTYEAR(DateTable[Date]))
  
->> Profit Vs LY = [Profit]- [Profit LY]
+* Profit Vs LY = [Profit]- [Profit LY]
  
->> Profit vs LY % = [Profit Vs LY]/[Profit]
+* Profit vs LY % = [Profit Vs LY]/[Profit]
  
->> Profit Margin = DIVIDE([Profit],[Sales],0)
+* Profit Margin = DIVIDE([Profit],[Sales],0)
 
->> Total Cost = SUM(Sales_Data[Total Cost]) 
+* Total Cost = SUM(Sales_Data[Total Cost]) 
   
 
 # Conclusion of Power BI Sales Dashboard Project

@@ -68,19 +68,19 @@ Use the Power BI Desktop application to create reports based on your data model.
 6) Implementing DAX Calculations
 We will use Data Analysis Expressions (DAX) to create calculated columns, measures, and calculated tables to perform complex calculations and aggregations. DAX is a powerful formula language that allows you to manipulate data within Power BI.
 
-//Measures Total Sales
+* Measures Total Sales
 
 Sales = SUM(Sales_Data[Sales])
 
-//Measures Previous Year Toal Sales
+* Measures Previous Year Toal Sales
 
 Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
 
-//Diffrence Between Current Year Sales & Previous Year Sales
+* Diffrence Between Current Year Sales & Previous Year Sales
 
 Sales vs PY = [Sales] - [Sales PY]
 
-//Percentage Increase or Decrease in sales year on year (YOY%)
+* Percentage Increase or Decrease in sales year on year (YOY%)
 
 Sales vs py % = DIVIDE([Sales vs PY],[Sales],0)
 

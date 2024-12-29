@@ -70,19 +70,19 @@ We will use Data Analysis Expressions (DAX) to create calculated columns, measur
 
 * Measures Total Sales
 
-Sales = SUM(Sales_Data[Sales])
+   Sales = SUM(Sales_Data[Sales])
 
 * Measures Previous Year Toal Sales
 
-Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
+   Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
 
 * Diffrence Between Current Year Sales & Previous Year Sales
 
-Sales vs PY = [Sales] - [Sales PY]
+   Sales vs PY = [Sales] - [Sales PY]
 
 * Percentage Increase or Decrease in sales year on year (YOY%)
 
-Sales vs py % = DIVIDE([Sales vs PY],[Sales],0)
+   Sales vs py % = DIVIDE([Sales vs PY],[Sales],0)
 
 
 * Products Sold = SUM(Sales_Data[Order Quantity])

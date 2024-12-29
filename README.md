@@ -24,7 +24,7 @@ The objective of the report is to analyze and present comprehensive insights int
 
 # Steps to follow for an end-to-end Power BI Project
 ## 1) Gather Data
-Collect the necessary data for your project. This could include data from various sources such as databases, spreadsheets, or web services. Ensure the data is accurate and relevant to your objective. Download the Download section at the end of the page.
+Collect the necessary data for your project. This could include data from various sources such as databases, spreadsheets, or web services. Ensure the data is accurate and relevant to your objective.
 
 ## 2) Power Querry – Data Extract, Transform & Load
 Power Query Editor in Power BI is a powerful tool for data cleaning and transformation. We will use it Clean and transform the data to make it suitable for analysis. This may involve removing duplicates, handling missing values, merging datasets, or creating calculated columns.

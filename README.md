@@ -110,3 +110,7 @@ We will use Data Analysis Expressions (DAX) to create calculated columns, measur
 * 4 Customers are leading to a drop in sales.
 
 * The profit margin in the Export channel is higher
+
+# Dashboard View
+![Screenshot (653)](https://github.com/user-attachments/assets/f92819c3-e734-4485-b9e6-b4fd63f73ca8)
+
